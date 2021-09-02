@@ -1,0 +1,162 @@
+body {
+    background-image: url(../PlatziVideo/245-2453892_fondos-de-ciudades-de-noche-hd.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Mulish', sans-serif;
+}
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.header__img {
+    width: 180px;
+    margin: 0 0 0 20px;
+}
+
+a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+    color: #fff;
+}
+
+.login__container {
+    background: rgba(0, 0, 0, 0.527);
+    border: 1px solid rgba(117, 117, 117, 0.438);
+    box-shadow: 0 0 40px rgb(0, 0, 0);
+    border-radius: 40px;
+    padding: 30px 40px; 
+    min-height: 500px;
+    width: 400px;
+}
+
+.login__container h2 {
+    font-size: 2em;
+    padding: 0 0 15px 0;
+    color: rgb(255, 123, 0);
+}
+
+.login__container--form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__container--form .input {
+    background: rgba(53, 53, 53, 0.445);
+    border: none;
+    border-bottom: 1px solid rgba(119, 119, 119, 0.774);
+    border-radius: 100px;
+    margin: 4px 0;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    color: #fff
+}
+
+::placeholder {
+    color: #fff
+}
+
+.login__container--form .input:hover {
+    background: rgba(0, 0, 0, 0.205);
+}
+
+.login__container--form .input:focus {
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.308));
+	border-bottom: 1px solid rgba(255, 123, 0, 0.726);
+}
+
+.login__container--form .button {
+    background: rgba(255, 123, 0, 0.5);
+    height: 35px;
+    border-radius: 100px;
+    border: none;
+    margin-top: 4px;
+    color: #fff;
+}
+
+.login__container--form .button:hover {
+    background: rgba(255, 123, 0);
+}
+
+.login__container--remember-me {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login__container--remember-me a {
+    font-size: 15px;
+    font-weight: 900;
+    color: rgba(255, 123, 0);
+}
+
+.login__container--social-media > div {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.login__container--social-media-Google img {
+    width: 40px;
+    margin-right: 8px;
+}
+
+.login__container--social-media-Twitter img {
+    width: 32px;
+    margin-right: 17px;
+}
+
+.login__container--register {
+    margin: 30px 0 0 0px;
+}
+
+.login__container--register a {
+    font-size: 15px;
+    font-weight: 900;
+    color: rgba(255, 123, 0);
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+footer a {
+    padding: 15px 40px;
+    margin-bottom: 10px;
+    background: rgba(255, 123, 0, 0.26);
+    border-radius: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .login__container {
+        background-color: #0000;
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        width: 100%
+    }
+}
